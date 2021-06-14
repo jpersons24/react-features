@@ -1,38 +1,71 @@
 .App {
+  padding: 0 50px;
+}
+
+.header {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header h1 {
+  color: #61DAFB;
+  /* text-shadow: x-offset y-offset blur color; */
+  text-shadow: 3px 3px 5px black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* *******************  GENERAL  ********************* */
+
+.general {
+  border: 5px outset #3fa7aa;
+  padding: 0 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.general h2 {
+  color: #61DAFB;
+  text-shadow: 3px 3px 5px black;
 }
 
-.App-link {
-  color: #61dafb;
+.general h3 {
+  color: #20232B;
+  text-shadow: 3px 3px 5px #61DAFB;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.numbered-list {
+  list-style: lower-roman outside;
+  color: purple;
+}
+
+/* *******************  Advantages vs Limitations  ******************* */
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.advantages {
+  border-right: 2px dashed black;
+  text-align: center;
+  color: #61DAFB;
+}
+
+.advantage-list {
+  list-style: lower-roman inside;
+}
+
+.limitations {
+  border-left: 2px dashed black;
+  text-align: center;
+  color: red;
+}
+
+.limitations-list {
+  list-style: lower-roman inside;
+  color: red;
+}
+
+.virtual-dom p {
+  text-decoration: underline wavy #61DAFB;
+}
+
+.virtual-dom ol li {
+  margin: 20px 0;
 }
