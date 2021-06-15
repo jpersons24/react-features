@@ -4,6 +4,7 @@ import Advantages from './Advantages';
 import Limitations from './Limitations';
 import Jsx from './Jsx';
 import VirtualDom from './VirtualDom';
+import Class from './Class';
 
 const General = () => {
   return (
@@ -25,6 +26,7 @@ const General = () => {
       </div>
       <Jsx />
       <VirtualDom />
+      <Class />
     </div>
   )
 };
