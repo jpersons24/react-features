@@ -69,3 +69,11 @@
 .virtual-dom ol li {
   margin: 20px 0;
 }
+
+.class p {
+  padding-right: 15px;
+}
+
+.function p {
+  padding-right: 15px;
+}

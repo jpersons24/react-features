@@ -5,6 +5,7 @@ import Limitations from './Limitations';
 import Jsx from './Jsx';
 import VirtualDom from './VirtualDom';
 import Class from './Class';
+import Function from './Function';
 
 const General = () => {
   return (
@@ -26,7 +27,10 @@ const General = () => {
       </div>
       <Jsx />
       <VirtualDom />
-      <Class />
+      <div className="grid">
+        <Class />
+        <Function />
+      </div>
     </div>
   )
 };
